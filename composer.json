@@ -1,0 +1,15 @@
+{
+  "name": "extension/teledele-custom-stocks",
+  "description": "Teledele Custom Stocks",
+  "type": "wordpress-plugin",
+  "autoload": {
+    "classmap": [
+      "includes/",
+      "includes/Admin/"
+    ]
+  },
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "^9.0"
+  }
+}
