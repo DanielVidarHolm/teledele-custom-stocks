@@ -88,8 +88,7 @@ class Setup {
 	 * @since 1.0.0
 	 */
 	public function register_page() {
-        error_log( 'TCS register_page ran. wc_admin_register_page=' . ( function_exists('wc_admin_register_page') ? 'YES' : 'NO' ) );
-
+        phpinfo();
         if ( ! function_exists( 'wc_admin_register_page' ) ) {
 			return;
 		}
