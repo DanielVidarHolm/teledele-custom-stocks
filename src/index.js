@@ -23,11 +23,12 @@ const AdminPage = () => {
             <Section component="article">
                 <SectionHeader title={ __( 'Search', 'teledele-custom-stocks' ) } />
                 <Search
-                    type="products"
+                    type="categories"
                     placeholder={ __( 'Search for something', 'teledele-custom-stocks' ) }
                     selected={ selected }
                     onChange={ setSelected }
                     inlineTags
+                    staticResults={ true }
                 />
             </Section>
 
@@ -52,12 +53,6 @@ const AdminPage = () => {
                 <Pill className="pill">
                     { __( 'Pill Shape Container', 'teledele-custom-stocks' ) }
                 </Pill>
-            </Section>
-
-            <Section component="article">
-                <SectionHeader title={ __( 'Spinner', 'teledele-custom-stocks' ) } />
-                <p>I am a spinner!</p>
-                <Spinner />
             </Section>
 
             <Section component="article">

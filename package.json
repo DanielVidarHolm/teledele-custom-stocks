@@ -10,12 +10,13 @@
   },
   "dependencies": {
     "@woocommerce/components": "^13.0.0",
-    "@wordpress/hooks": "^4.0.0",
-    "@wordpress/i18n": "^6.0.0",
     "@wordpress/components": "^32.0.0",
-    "@wordpress/element": "^6.0.0"
+    "@wordpress/element": "^6.0.0",
+    "@wordpress/hooks": "^4.0.0",
+    "@wordpress/i18n": "^6.0.0"
   },
   "devDependencies": {
+    "@woocommerce/dependency-extraction-webpack-plugin": "^2.2.0",
     "@wordpress/scripts": "^31.3.0"
   },
   "files": [
